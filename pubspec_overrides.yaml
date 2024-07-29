@@ -1,0 +1,10 @@
+dependency_overrides: 
+
+  # mailbox.take with timeout PR.
+  native_synchronization:
+    git:
+      url: https://github.com/dart-lang/native_synchronization.git
+      ref: 0fbdc04238ba18479b31eed5c2f4c121ff0bf4ef
+
+  dcli:
+    path: ../../dcli/dcli
